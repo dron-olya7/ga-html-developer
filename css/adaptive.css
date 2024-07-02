@@ -1,0 +1,290 @@
+@media screen and (max-width: 320px) {
+    
+    .header-menu{
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .header-menu ul{
+        order: 2;
+        margin: 0;
+    }
+
+    .header-menu ul li a{
+        margin-right: 15px;
+    }
+
+    .header-menu ul li:nth-child(4){
+        display: none;
+    }
+
+    .header-menu ul li:nth-child(5){
+        display: none;
+    }
+
+    .header-menu ul li:nth-child(7) a{
+        margin: 0;
+    }
+
+    .header-menu svg{
+        margin-bottom: 25px;
+    }
+
+    .new-smell{
+        margin-bottom: 50px;
+    }
+
+    .logo-lancome{
+        width: 182px;
+        margin-bottom: 16px;
+    }
+
+    .smell-img-adaptive{
+        display: block;
+        width: 320px;
+    }
+
+    .smell-img{
+        display: none;
+    }
+
+    .smell h1{
+        font-size: 30px;
+        line-height: 39px;
+        padding-top: 20px;
+    }
+
+    .description{
+        font-size: 16px;
+        line-height: 22.4px;
+        width: 271px;
+    }
+
+
+    .new-smell-action{
+        width: 280px;
+        font-size: 11px;
+        line-height: 10.95px;
+        letter-spacing: 1.399999976158142px;
+    }
+
+    .new-smell-technologi{
+        padding-top: 20px;
+        margin-bottom: 36px;
+    }
+
+    .new-smell-technologi span{
+        font-size: 11px;
+        line-height: 14.3px;
+        letter-spacing: 1.399999976158142px;
+        margin-bottom: 5px;
+    }
+
+    .new-smell-technologi h1{
+        font-size: 25px;
+        line-height: 32.5px;
+        width: 280px;
+        margin-bottom: 10px;
+    }
+
+    .smell-technologi-img{
+       display: none;
+    }
+
+    .smell-technologi-img-adaptive{
+        display: block;
+        width: 280px;
+        margin-bottom: 14px;
+    }
+
+    .new-smell-technologi-desc{
+        font-size: 16px;
+        line-height: 22.4px;
+        width: 276px;
+    }
+
+    .smell-adole{
+        padding-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .smell-adole-cleane{
+        font-size: 11px;
+        line-height: 14.3px;
+        letter-spacing: 1.399999976158142px;
+    }
+
+    .smell-adole h1{
+        font-size: 25px;
+        line-height: 32.5px;
+        margin: 5px 0 15px 0;
+    }
+
+    .smell-adole p{
+        font-size: 16px;
+        line-height: 22.4px;
+        width: 276px;
+        margin-bottom: 30px;
+    }
+
+    .smell-adole-products{
+        flex-direction: column;
+        
+    }
+
+    .smell-adole-product:first-child{
+        margin: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .smell-adole-product:last-child{
+        text-align: center;
+    }
+
+    .smell-adole-product img{
+        width: 200px;
+    }
+
+    .smell-adole-product-desc{
+        margin-top: 6px;
+    }
+
+    .smell-description-title{
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 1.399999976158142px;
+    }
+
+    .smell-adole-product-title{
+        font-size: 18px;
+        line-height: 28.98px;
+    }
+
+    .smell-adole-product-price{
+        margin: 0;
+    }
+
+    .new-price{
+        font-size: 17px;
+        line-height: 23.8px;
+        margin-right: 12px;
+    }
+
+    .old-price{
+        font-size: 17px;
+        line-height: 23.8px;
+    }
+
+    .old-price:before {
+        width: 67px;
+    }
+    
+    .smell-adole-product-button{
+        display: none;
+    }
+
+    .promocode{
+        width: 320px;
+        margin: 0;
+        margin-bottom: 70px;
+    }
+
+    .promocode h1{
+        font-size: 45px;
+        line-height: 54px;
+        letter-spacing: -0.20000000298023224px;
+    }
+
+    .promocode span:nth-child(3) {
+        width: 256px;
+        margin: 5px 0 25px 0;
+    }
+
+    .promocode button{
+        width: 280px;
+        margin: 0 ;
+        margin-bottom: 15px;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .footer-adaptive{
+        display: block;
+        background-color: #000000;
+        color: #fff;
+        padding: 35px 0 0 0;
+    }
+
+    .social-link{
+        display: flex;
+        justify-content: center; 
+        margin-bottom: 25px;
+    }
+
+    .social-link a{
+        margin-right: 44px;
+    }
+
+    .social-link a:nth-child(3){
+        margin-top: -1px;
+    }
+
+    .social-link a:last-child{
+        margin-right: 0;
+    }
+
+    .link-download{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .link-download a:first-child{
+        margin-right: 31px;
+    }
+
+    .line{
+        border-bottom: solid 1px #F7F7F7;
+        opacity: .1;
+    }
+
+    .support-and-agree{
+        padding: 22px 0 33px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .support-and-agree p{
+        font-family: "HelveticaNeueCyr", sans-serif;
+        font-size: 10px;
+        line-height: 15px;
+   }
+
+   .support-and-agree p a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .support-and-agree p:first-child{
+        font-size: 10px;
+        line-height: 15px;
+        opacity: .6;
+        margin-bottom: 12px;
+    }
+
+    .support-and-agree p:nth-child(2){
+        font-family: "GraphikLCG", sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 18px;
+    }
+
+    .support-and-agree p:nth-child(3){
+        margin-bottom: 5px;
+    }
+}

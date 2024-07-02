@@ -1,0 +1,392 @@
+@import "fonts.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Helvetica", sans-serif;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    font-family: "GraphikLCG", sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 580px;
+
+}
+
+ul{
+    display: flex;
+    margin-right: 36px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #000000;
+}
+
+ul li:last-child a{
+    color: #F10D48;
+}
+
+.new-smell{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.logo-lancome{
+    margin-bottom: 40px;
+    width: 223.25px;
+}
+
+.smell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smell-img-adaptive{
+    display: none;
+}
+
+.smell-img{
+    width: 580px;
+    margin-bottom: 25px;
+}
+
+.smell h1{
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 15px;
+    max-width: 580px;
+}
+
+.description{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    max-width: 486px;
+}
+
+.new-smell-action{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    width: 393px;
+    height: 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+    line-height: 13.93px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.new-smell-technologi{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.new-smell-technologi span{
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 1.399999976158142px;
+    margin-bottom: 10px;
+}
+
+.new-smell-technologi h1{
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 10px;
+    max-width: 473px;
+}
+
+.smell-technologi-img{
+    width: 580px;
+    margin-bottom: 20px;
+}
+
+.smell-technologi-img-adaptive{
+    display: none;
+}
+
+.new-smell-technologi-desc{
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 580px;
+}
+
+.smell-adole{
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smell-adole-cleane{
+    font-family: "HelveticaRegular", sans-serif;
+    font-size: 14px;
+    line-height: 18.2px;
+    letter-spacing: 1px;
+}
+
+.smell-adole h1{
+    font-size: 45px;
+    line-height: 54px;
+    margin: 10px 0;
+    max-width: 467px;
+}
+
+.smell-adole p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    max-width: 571px;
+}
+
+.smell-adole-products{
+    display: flex;
+    justify-content: center;
+}
+
+.smell-adole-product:first-child{
+    margin-right: 40px;
+    text-align: end;
+}
+
+.smell-adole-product:last-child{
+    text-align: start;
+}
+
+.smell-adole-product-desc{
+    margin-top: 13px;
+}
+
+.smell-description-title{
+    font-size: 11px;
+    line-height: 16.5px;
+    letter-spacing: 1.399999976158142px;
+    text-transform: uppercase;
+}
+
+.smell-adole-product-title{
+    font-family: "HelveticaRegular", sans-serif;
+    font-size: 24px;
+    line-height: 33.6px;
+    margin-bottom: 4px;
+}
+
+.smell-adole-product-title span{
+    text-transform: uppercase;
+}
+
+.smell-adole-product-price{
+    margin-bottom: 10px;
+}
+
+.new-price{
+    font-family: "HelveticaBold", sans-serif;
+    font-size: 23px;
+    line-height: 32.2px;
+    margin-right: 17px;
+    margin-bottom: 10px;
+}
+
+.smell-adole-product-price{
+    font-family: "HelveticaBold", sans-serif;
+    font-size: 23px;
+    line-height: 32.2px;
+    padding-right: 4px;
+}
+
+.old-price{
+    color: #B3B3B3;
+    position: relative;
+    text-decoration: none;
+}
+
+.old-price:before {
+    content: "";
+    width: 87px;
+    height: 2px;
+    background: #B3B3B3;
+    position: absolute;
+    top: 50%;
+    left: -5px;
+}
+
+.smell-adole-product-button a{
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 11px;
+    letter-spacing: 1.399999976158142px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.smell-adole-product-button a span{
+    margin-right: 10px;
+}
+
+.promocode{
+    width: 580px;
+    padding: 30px 0 20px 0;
+    background-color: #FFE9DA;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 110px 95px 110px;
+}
+
+.promocode span:first-child{
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 16.5px;
+    letter-spacing: 1.399999976158142px;
+    text-transform: uppercase;
+}
+
+.promocode span:nth-child(3){
+    font-size: 14px;
+    line-height: 18.2px;
+    margin: 5px 0 15px 0;
+    max-width: 334px;
+}
+
+.promocode span:nth-child(5){ 
+    font-size: 11px;
+    line-height: 15.4px;
+}
+
+.promocode h1{
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -0.20000000298023224px;
+}
+
+.promocode button{
+    font-family: "HelveticaNeueCyr", sans-serif;
+    width: 280px;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #000;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16.42px;
+    letter-spacing: 1.399999976158142px;
+    border: none;
+    margin: 0 150px 18px 150px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer .container{
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-content{
+    max-width: 580px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 48px;
+}
+
+.icons-social-networks{
+    margin-bottom: 39px;
+}
+
+.icons-social-networks a{
+    text-decoration: none;
+}
+
+.icons-social-networks svg{
+    margin-right: 40px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone span:first-child{
+    font-family: "GraphikLCG", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 7px;
+}
+.phone span:last-child{
+    font-family: "HelveticaRegular", sans-serif;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.download{
+    margin-bottom: 40px;
+}
+
+.download.download a{
+    text-decoration: none;
+}
+
+.download a:last-child{
+    margin-left: 31px;
+}
+
+.agreement{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.agreement a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.agreement a:first-child{
+    margin-bottom: 5px;
+}
+
+.footer-adaptive{
+    display: none;
+}
